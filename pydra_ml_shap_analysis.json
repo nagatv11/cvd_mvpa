@@ -296,4 +296,5 @@
       78585,
       9992
     ],
-    "n_splits": 50, "test_size": 0.2, "clf_info": [["sklearn.linear_model", "LinearRegressionCV", {"solver": "liblinear", "penalty": "l1", "max_iter": 100}], ["sklearn.neural_network", "MLPClassifier", {"alpha": 1, "max_iter": 1000}], ["sklearn.ensemble", "RandomForestClassifier", {"n_estimators": 100}]], "permute": [false, true], "gen_feature_importance": false, "gen_permutation_importance": false, "gen_shap": false, "nsamples": "auto", "l1_reg": "aic", "plot_top_n_shap": 20, "metrics": ["r2_score", "root_mean_squared_error", "mean_absolute_error"]}
+    "n_splits": 50, "test_size": 0.2, "clf_info": [["sklearn.linear_model", "LinearRegressionCV", {"solver": "liblinear", "penalty": "l1", "max_iter": 100}], ["sklearn.neural_network", "MLPRegressor", {"alpha": 1, "max_iter": 1000}], ["sklearn.ensemble", "RandomForestRegressor", {"n_estimators": 100}]], "permute": [false, true], "gen_feature_importance": false, "gen_permutation_importance": false, "gen_shap": false, "nsamples": "auto", "l1_reg": "aic", "plot_top_n_shap": 20, "metrics": ["r2_score", "root_mean_squared_error", "mean_absolute_error"]}
+
