@@ -1,4 +1,9 @@
 { "filename": "X_pydraml_data_cleaned.csv", "target_vars": ["changed_FU"], "group_var": null, "x_indices": [
+      "Townsend Deprivation", "Leisure time physical activity", "Occupational physical activity",
+      "Depression", "Anxiety", "General pain", "Greenspace percentage", "Water percentage",
+      "Frequency of friends and family visits", "Able to confide", "Loneliness",
+      "Retirement status", "Reaction time", "Matrix Pattern completion", "Numeric memory",
+      "Fluid intelligence", "Tower rearranging", "Trail Making A", "Trail Making B",
       64,
       10014,
       10015,
