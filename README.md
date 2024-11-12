@@ -9,10 +9,11 @@ Contact information: Naga Thovinakere, nagashree.thovinakere@mail.mcgill.ca
 
 # Performance results: Figure 2 and Table 3, and Sup. Figure S2
 
-We ran three separate models using [pydra-ml](https://github.com/nipype/pydra-ml) for which a spec file is needed where the dataset is specified. 
+We ran three separate models using [pydra-ml](https://github.com/nipype/pydra-ml) for which a spec file is needed where the dataset is specified. Since we ran models on a cluster, we have SLURM scripts, so the dataset should be in the same directory as the SLURM scripts.
+
 - `behavior_model_pydra_ml.json` runs demographic, cognitive and contextual features only model. Run this script using the command: `pydraml -s behavior_model_pydra_ml.json`
 - `imaging_model_pydra_ml.json` runs neuroimaging features only model. Run this script using the command: `pydraml -s imaging_model_pydra_ml.json`
 - `multimodal_model_pydra_ml.json` runs a multimodal model which includes all demographic, cognitive, contextual, and neuroimaging features. Run this script using the command: `pydraml -s multimodal_model_pydra_ml.json`
 
-Since we ran models on a cluster, we have SLURM scripts, so the dataset should be in the same directory as the SLURM scripts.
+
 
