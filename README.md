@@ -7,4 +7,9 @@ Thovinakere, N., Ghosh, S. S., Itturia-Medina, Y., Geddes, M.R. Social Determina
 
 # Performance results: Figure 2 and Table 3, and Sup. Figure S2
 
-We ran models using pydra-ml for which a spec file is needed where the dataset is specified. The dataset needs to be in the same dir where the spec file is run. Since we ran models on a cluster, we have SLURM scripts, so the dataset is in the same dir as the SLURM scripts.
+We ran three separate models using pydra-ml for which a spec file is needed where the dataset is specified. 
+- behavior_model_pydra_ml.json runs demographic, cognitive and contextual features only model
+- imaging_model_pydra_ml.json runs neuroimaging features only model
+- multimodal_model_pydra_ml.json runs a multimodal model which includes all demographic, cognitive, contextual, and neuroimaging features.
+
+Since we ran models on a cluster, we have SLURM scripts, so the dataset should be in the same dir as the SLURM scripts.
